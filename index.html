@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>D&D Character Creator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section id="container">
+			<h1>D&D character Creator</h1>
+			<input id="name" type="text" name="" value="" placeholder="Name..."><br/><br/>
+			<section id="characterInfo">
+				<h2>Character Info</h2>
+				<table>
+					<tr>
+						<td><label for="race">Choose a race:</label></td>
+						<td><select name="race" id="race">
+							<option value="dragonborn">Dragonborn</option>
+							<option value="elf">Elf</option>
+							<option value="dwarf">Dwarf</option>
+							<option value="human">Human</option>
+							<option value="tiefling">Tiefling</option>
+							<option value="gnome">Gnome</option>
+						  </select></td>
+						  <td><span id="raceDesc">test</span></td>
+					</tr>
+					<tr>
+						<td><label for="class">Choose a class:</label></td>
+						<td><select name="class" id="class">
+							<option value="barbarian">Barbarian</option>
+							<option value="bard">Bard</option>
+							<option value="cleric">Cleric</option>
+							<option value="druid">Druid</option>
+							<option value="fighter">Fighter</option>
+							<option value="monk">Monk</option>
+							<option value="paladin">Paladin</option>
+							<option value="ranger">Ranger</option>
+							<option value="rogue">Rogue</option>
+							<option value="sorcerer">Sorcerer</option>
+							<option value="warlock">Warlock</option>
+							<option value="wizard">Wizard</option>
+						</select></td>
+						<td><span id="classDesc">test</span></td>
+					</tr>
+					<tr>
+						<td><label for="background">Choose a background:</label></td>
+						<td><select name="background" id="background">
+							<option value="acolyte">Acolyte</option>
+							<option value="conartist">Con Artist</option>
+							<option value="scoundrel">Scoundrel</option>
+						</select></td>
+						<td><span id="backgroundDesc">test</span></td>
+					</tr>
+				</table>
+			</section>
+
+			
+<br/><br/>
+			<section id="stats">
+				<h2>Ability Scores</h2>
+				
+				<table>
+					<tr>
+						<td>Strength</td>
+						<td><input id="str" type="number" name="" value=""></td>
+						<td><button id="rollStr">Roll</button></td>
+						<td>Dexterity</td>
+						<td><input id="dex" type="number" name="" value=""></td>
+						<td><button id="rollDex">Roll</button></td>
+					</tr>
+					<tr>
+						<td>Constitution</td>
+						<td><input id="con" type="number" name="" value=""></td>
+						<td><button id="rollCon">Roll</button></td>
+						<td>Wisdom</td>
+						<td><input id="wis" type="number" name="" value=""></td>
+						<td><button id="rollWis">Roll</button></td>
+					</tr>
+					<tr>
+						<td>Intelligence</td>
+						<td><input id="int" type="number" name="" value=""></td>
+						<td><button id="rollInt">Roll</button></td>
+						<td>Charisma</td>
+						<td><input id="cha" type="number" name="" value=""></td>
+						<td><button id="rollCha">Roll</button></td>
+					</tr>
+				</table>
+			</section>
+
+
+			<section id="notesArea">
+				<h2>Notes</h2>
+				<textarea id="notes" name="notes" rows="25"></textarea>
+			</section>
+
+		</section>
+
+		
+
+		<script type="text/javascript" src="js/main.js" defer></script>
+	</body>
+</html>
