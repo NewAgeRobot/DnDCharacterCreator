@@ -3,18 +3,18 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 **Link to project:** https://dndcharactercreator.netlify.app/
 
-![alt tag](http://placecorgi.com/1200/650)
+![alt tag](https://user-images.githubusercontent.com/1900240/168688201-1e1a5204-6c75-4c99-bab3-852b78abc65a.jpg)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Open 5E API
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+This uses a mix of it all really, really leaning hard on javascript to save the data into localstorage and then pull it out again when needed or updated. It uses the Open 5E Api as the official WoTC DND5E API has a lot to pull but seems incredibly geared towards the like of discord bots or people pulling in entire rulesets. It lacks basic things like class and race descriptions and also has the limitation of only working with the SRD.
 
 ## Optimizations
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+Halfway through the project I decided to switch from the DND5E API to the Open 5E API and it became a lot easier to work with. The Open 5E API immediately generates a ton of information and has it organised incredibly well. I am working on adding profile images, incorporating sliding panels to access inventory and spell tracking.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+It was great to get through the ins and outs of a local storage based project, it provides such great utility to handle large datasets in memory and the ability to have a persistent character sheet that can be easily updated has already been incredibly useful for my tables as we work off of tablets.
